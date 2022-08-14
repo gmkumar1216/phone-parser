@@ -39,8 +39,63 @@ const patternList = [
     pattern: "\\d{3} \\d{3} \\d{4}",
     displayText: "D3 SPACE D3 SPACE D4",
   },
+  {
+    pattern: "\\d{2} \\d{2} \\d{2} \\d{2} \\d{2}",
+    displayText: "D2 SPACE D2 SPACE D2 SPACE D2 SPACE D2",
+  },
+  {
+    pattern: "\\d{4} \\d{2} \\d{2} \\d{2}",
+    displayText: "D4 SPACE D2 SPACE D2 SPACE D2",
+  },
+  {
+    pattern: "\\d{2} \\d{4} \\d{4}",
+    displayText: "D2 SPACE D4 SPACE D4",
+  },
+  {
+    pattern: "\\d{3} \\d{2} \\d{2} \\d{3}",
+    displayText: "D3 SPACE D2 SPACE D2 SPACE D3",
+  },
+  {
+    pattern: "\\d{2} \\d{2} \\d{2} \\d{4}",
+    displayText: "D2 SPACE D2 SPACE D2 SPACE D4",
+  },
+  {
+    pattern: "\\d{4} \\d{4} \\d{2}",
+    displayText: "D4 SPACE D4 SPACE D2",
+  },
+  {
+    pattern: "\\d{8} \\d{2}",
+    displayText: "D8 SPACE D2",
+  },
+  {
+    pattern: "\\d{2} \\d{8}",
+    displayText: "D2 SPACE D8",
+  },
+  {
+    pattern: "\\d{4} \\d{2} \\d{4}",
+    displayText: "D4 SPACE D2 SPACE D4",
+  },
+  {
+    pattern: "\\d{4} \\d{6}",
+    displayText: "D4 SPACE D6",
+  },
+  {
+    pattern: "\\d{6} \\d{4}",
+    displayText: "D6 SPACE D4",
+  },
+  {
+    pattern: "\\d{3} \\d{3} \\d{3} \\d{1}",
+    displayText: "D3 SPACE D3 SPACE D3 SPACE D1",
+  },
+  {
+    pattern: "\\d{1} \\d{3} \\d{3} \\d{3}",
+    displayText: "D1 SPACE D3 SPACE D3 SPACE D3",
+  },
+  {
+    pattern: "\\d{1} \\d{1} \\d{1} \\d{1} \\d{1} \\d{1} \\d{1} \\d{1} \\d{1} \\d{1}",
+    displayText: "D1 SPACE D1 SPACE D1 SPACE D1 SPACE D1 SPACE D1 SPACE D1 SPACE D1 SPACE D1 SPACE D1",
+  },
 ];
-
 const cleanupList = [
   {
     originalText: "S",
